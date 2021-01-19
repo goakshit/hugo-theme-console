@@ -30,6 +30,14 @@
     text-rendering: optimizeLegibility;
 }
 
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('../font/slkscr.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
 :root {
     --global-font-size: 16px;
     --global-font-color: #444;
@@ -75,6 +83,11 @@ body {
     font-size: var(--global-font-size);
     background-color: #fff;
     margin-bottom: 75px;
+}
+
+.page-title {
+    font-family: "Silkscreen" !important;
+    font-size: 24px !important;
 }
 
 h1,
